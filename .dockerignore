@@ -1,0 +1,35 @@
+# retailer
+retailer
+
+## java
+*.class
+src/main/protobuf
+target
+
+## secrets
+secrets.yml
+*.crt
+*.key
+
+## artifacts
+*.log
+*[Dd]ocker*
+.docker*
+.git*
+Jenkinsfile
+Makefile
+auth.json
+ci
+
+## docs
+*-sample
+*.md
+
+## ide
+*.swp
+.idea
+out
+
+## macos
+.DS_Store
+.Trashes
